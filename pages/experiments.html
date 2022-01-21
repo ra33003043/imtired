@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Expirements
+        </title>
+        <link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
+        <link rel="stylesheet" href="../css/index_style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+
+                <img src="../images/favicon.png" width="64" height="64" alt="logo" class="logo">
+
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#">Expirements</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                        <li><a href="js_where_to.html">JS Where to</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <h2 class="jstesting">
+            Anderson being stupid trying to create a functional lightbulb!
+        </h2>
+        <p class="imtired">
+            You can use Javascript to change html attributes.
+        </p>
+        <p class="imtired">
+            In this scenerio I will use Javascript to change the value src of an img. 
+        </p>
+        
+        <button onclick="document.getElementById('myImage').src='../images/pic_bulbon.gif'">Turn on the light</button>
+        <img id="myImage" src="../images/pic_bulboff.gif" style="width: 100px">
+        <button onclick="document.getElementById('myImage').src='../images/pic_bulboff.gif'">Turn off the light</button>
+
+        <br>
+        <br>
+
+        <h2 class="jstesting">
+            Anderson trying to make css change with a button
+        </h2>
+        <p id="colorchange" class="imtired">
+            In the following script I will change the color of this text.
+        </p>
+        <button type="button" onclick="document.getElementById('colorchange').style.color='green'">Color changer</button>"
+
+        <br>
+        <br>
+
+        <h2 class="jstesting">
+            Anderson failing to make text hide
+        </h2>
+        <p id="texthiden" class="imtired">
+            In this scenerio I will make this text disappear
+        </p>
+        <button type="button" onclick="document.getElementById('texthiden').style.display = 'none'">Make the text disappear</button>
+
+        <br>
+        <br>
+
+        <h2 class="jstesting">
+            Anderson making text appear
+        </h2>
+        <p id="showtext" class="imtired" style="display: none;">
+            I will make this text appear
+        </p>
+        <button type="button" onclick="document.getElementById('showtext').style.display = 'block'">Make the text appear :)</button>
+        
+        <br>
+        <br>
+
+        <h2 class="jstesting">
+            Apple is trash
+        </h2>
+        
+        <p class="imtired">
+            ES DOMINGO!
+        </p>
+    </body>
+</html>
